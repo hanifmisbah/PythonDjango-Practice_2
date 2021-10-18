@@ -1,0 +1,13 @@
+
+Mengkoneksikan PostgreSQL ke Django:
+	1. install psycopg2 di cmd / terminal
+	2. buat database terlebih dahulu di cmd / terminal
+	3. masuk ke setting.py -> ubah DATABASES
+	4. makemigrations -> migrate
+
+
+cek database yg sudah dibuat:
+	1. masuk cmd -> ketik "psql -h localhost -U postgres" -> masukkan password
+	2. ketik "\l" untuk menampilkan list database
+	3. ketik "\c <nama database>"
+	4. ketik "\d <nama table>"
